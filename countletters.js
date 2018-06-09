@@ -1,5 +1,5 @@
 var countLetters = function (string) {
-  result = {};
+  var result = {};
   for (var i = 0; i < string.length; i++) {
     if (result[string[i]]) {
       result[string[i]] += 1;
